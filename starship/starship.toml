@@ -41,7 +41,8 @@ vimcmd_replace_symbol = '[:](bold white)'
 vimcmd_visual_symbol = '[:](bold white)'
 
 [memory_usage]
-format = '$symbol [${ram_pct}( | ${swap_pct})]($style)'
-style = 'bold dimmed yellow'
+format = '$symbol [${ram_pct}( | ${swap_pct})]($style) '
+style = 'bold dimmed red'
 disabled = false
-threshold = 0
+threshold = 75
+symbol = ' '
