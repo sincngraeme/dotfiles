@@ -3,6 +3,7 @@
 #####################
 
 add_newline = false
+continuation_prompt = '[>](bold bright black)'
 
 format = """
 $username\
@@ -14,6 +15,7 @@ $git_state\
 $git_status\
 $fill\
 $memory_usage\
+$cmd_duration\
 $line_break\
 $sudo\
 $character """
@@ -21,6 +23,7 @@ $character """
 [hostname]
 ssh_only = false
 disabled = false
+format = '[$hostname]($style): '
 # aliases = {
     # any aliases that we may want to set (ssh)    
 # }
@@ -46,3 +49,15 @@ style = 'bold dimmed red'
 disabled = false
 threshold = 75
 symbol = ' '
+
+[git_branch]
+format = '| [$symbol$branch]($style) '
+
+[cmd_duration]
+min_time = 0
+show_milliseconds = true
+disabled = false
+show_notifications = true
+
+[fill]
+symbol = ' '
