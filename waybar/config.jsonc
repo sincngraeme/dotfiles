@@ -22,7 +22,7 @@
         "cpu",
         "memory",
         "network",
-        "pipewire",
+        "pulseaudio",
         "battery",
         "custom/power"
     ],
@@ -32,7 +32,7 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}% {icon}",
+        "format": "{capacity}% {icon} ",
         "format-icons": ["", "", "", "", ""],
         "max-length": 25
     },
@@ -54,19 +54,8 @@
         "format-window-separator": " ",
         "window-rewrite-default": "",
         "window-rewrite": {
-            "class<com.obsproject.Studio>": "",
-            "class<resolve>": "",
-            "class<librewolf>": "",
-            "class<steam>": "",
-            "class<gimp>": "",
-            "class<discord>": "",
-            "class<vesktop>": "",
-            "class<Signal>": "",
             "class<Spotify>": "",
-            "class<blender>": "",
             "class<vlc>": "󰕼",
-            "class<org.gnome.Nautilus>": "",
-            "Minecraft": "󰍳",
             "class<kitty>": ""
         },
         "on-click": "activate",
@@ -109,7 +98,7 @@
         "tooltip": false
     },
 
-    "pipewire": {
+    "pulseaudio": {
         "scroll-step": 5,
         "max-volume": 150,
         "format": "vol {volume}%",

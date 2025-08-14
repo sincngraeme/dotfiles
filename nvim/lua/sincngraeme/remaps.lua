@@ -50,7 +50,7 @@ vim.keymap.set("n", "<leader>q!", '<cmd>q!<CR>')
 vim.keymap.set("n", "<leader>qa!", '<cmd>qa!<CR>')
 
 -- Open nvimrc
-vim.keymap.set("n", "<leader>orc", ":tabnew | Ex $MYVIMRC/..<CR>")
+vim.keymap.set("n", "<leader>orc", [[:tabnew $MYVIMRC/..<CR]])
 
 -- vim.keymap.set("n", "<leader>q!", vim.cmd.q!)
 
@@ -72,23 +72,5 @@ vim.keymap.set("v", "<M-d>", "dgv")
 vim.keymap.set( "n", "<C-l>", "zL")
 vim.keymap.set( "n", "<C-h>", "zH")
 
--- if vim.g.insert_lock then
---     vim.keymap.set("i", "<C-c>", "") -- Remove the normal mode mapping
---     vim.keymap.set("i", "<Esc>", "") -- Remove the normal mode mapping
---     vim.keymap.set("i", "<C-p>", "<C-c>:" ) -- Give us access to commands
---     vim.keymap.set("i", "<C-k>", "<Up>")
---     vim.keymap.set("i", "<C-j>", "<Down>")
---     vim.keymap.set("i", "<C-h>", "<Left>")
---     vim.keymap.set("i", "<C-l>", "<Right>")
---     vim.keymap.set("i", "<C-z>", vim.cmd.undo)
--- else
---     vim.keymap.del("i", "<C-c>")
---     vim.keymap.del("i", "<Esc>")
---     vim.keymap.del("i", "<C-p>")
---     vim.keymap.del("i", "<C-k>")
---     vim.keymap.del("i", "<C-j>")
---     vim.keymap.del("i", "<C-h>")
---     vim.keymap.del("i", "<C-l>")
---     vim.keymap.del("i", "<C-z>")
--- end -- }}}
-
+-- Toggling Relative Line Numbers
+vim.keymap.set( "n", "<leader>tr", vim.cmd.ToggleRNU)

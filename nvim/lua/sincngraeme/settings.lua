@@ -145,3 +145,13 @@ vim.api.nvim_create_autocmd('LspAttach', {
 })
 -- }}}
 
+-- Toggling Relative Line numbers {{{
+function _G.toggle_relative_ln()
+    local rn = vim.o.rnu
+    vim.o.rnu = not rn
+end
+
+vim.api.nvim_create_user_command('ToggleRNU', function()
+	_G.toggle_relative_ln()
+end, {})
+-- }}}

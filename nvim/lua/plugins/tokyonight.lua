@@ -25,11 +25,5 @@ return {
                 }
             end,
         })
-
-        -- load the colorscheme here 
-        --  (this will go in each colorscheme file and ensure we only load it once)
-        if string.match(vim.g.default_colorscheme or "", "^tokyonight") then
-            vim.cmd("colorscheme " .. vim.g.default_colorscheme)
-        end
     end,
 }
