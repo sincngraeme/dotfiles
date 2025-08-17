@@ -50,7 +50,7 @@ vim.keymap.set("n", "<leader>q!", '<cmd>q!<CR>')
 vim.keymap.set("n", "<leader>qa!", '<cmd>qa!<CR>')
 
 -- Open nvimrc
-vim.keymap.set("n", "<leader>orc", [[:tabnew $MYVIMRC/..<CR]])
+-- vim.keymap.set("n", "<leader>orc", [[:tabnew $MYVIMRC/..<CR]])
 
 -- vim.keymap.set("n", "<leader>q!", vim.cmd.q!)
 

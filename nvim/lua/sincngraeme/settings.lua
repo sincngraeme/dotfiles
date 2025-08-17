@@ -23,6 +23,10 @@ vim.o.foldmethod = 'marker'
 
 -- Default terminal
 vim.o.shell = "bash"
+
+-- Persistant undos
+vim.opt.undofile = true
+vim.opt.undodir = vim.fn.stdpath('config') .. '~/.config/nvim/undo'
 -- }}}
 
 -- Diagnostic Symbols {{{
