@@ -2,8 +2,24 @@
 gh/
 
 # unneccessary
+nvim/
 dconf/
 dolphinrc
 kde.org/
 pulse/
 obsidian/
+QtProject.conf
+btop/
+filetypesrc
+flameshot/
+go/
+gtk-3.0/
+kde.org/
+libreoffice/
+mimeapps.list
+nvim~/
+OpenSCAD/
+qView/
+qutebrowser/
+session/
+yay/

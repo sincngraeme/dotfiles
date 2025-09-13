@@ -50,14 +50,8 @@
     },
 
     "hyprland/workspaces": {
-        "format": "{name}:<big>{windows}</big>",
-        "format-window-separator": " ",
-        "window-rewrite-default": "",
-        "window-rewrite": {
-            "class<Spotify>": "",
-            "class<vlc>": "󰕼",
-            "class<kitty>": ""
-        },
+        "format": "{name}",
+        "format-window-separator": "|",
         "on-click": "activate",
         "sort-by-number": true
     },
