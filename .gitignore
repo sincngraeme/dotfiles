@@ -2,18 +2,25 @@
 *
 
 # --- Whitelist certain files in ~ ---
+!/.gitignore
 !/.bashrc
 !/.inputrc
 
 # Unignore .config
 !/.config/
-# Reignore everything inside .config
-/.config/*
 
-# Unignore things we want to keep (inside .config)
-!/.config/hypr/*
-!/.config/kitty/*
-!/.config/starship/*
-!/.config/uwsm/*
-!/.config/waybar/*
-!/.config/wofi/*
+# Unignore folders we want to keep (inside .config)
+!/.config/kitty/
+!/.config/hypr/
+!/.config/starship/
+!/.config/uwsm/
+!/.config/waybar/
+!/.config/wofi/
+
+# Now unignore contents of folders we are now including
+!/.config/hypr/**
+!/.config/kitty/**
+!/.config/starship/**
+!/.config/uwsm/**
+!/.config/waybar/**
+!/.config/wofi/**

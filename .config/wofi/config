@@ -1,0 +1,4 @@
+key_expand=Tab
+key_up=Ctrl-p
+key_down=Ctrl-n
+matching=fuzzy

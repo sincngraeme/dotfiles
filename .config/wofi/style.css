@@ -1,0 +1,14 @@
+#window {
+    font-family: "Roboto Mono Nerd Font";
+    background: #1c1c1c;
+    color: #bcbcbc;
+}
+#input {
+    margin: 5px;
+    border-radius: 20px;
+    background-color: #bcbcbc;
+    color: #1c1c1c;
+}
+#entry:selected {
+    background-color: #767676;
+}
