@@ -2,18 +2,18 @@
 *
 
 # --- Whitelist certain files in ~ ---
-!.bashrc
-!.inputrc
+!/.bashrc
+!/.inputrc
 
 # Unignore .config
-!.config/
+!/.config/
 # Reignore everything inside .config
-.config/*
+/.config/*
 
 # Unignore things we want to keep (inside .config)
-!.config/hypr/
-!.config/kitty/
-!.config/starship/
-!.config/uwsm/
-!.config/waybar/
-!.config/wofi/
+!/.config/hypr/
+!/.config/kitty/
+!/.config/starship/
+!/.config/uwsm/
+!/.config/waybar/
+!/.config/wofi/
