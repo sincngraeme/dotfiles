@@ -11,9 +11,9 @@
 /.config/*
 
 # Unignore things we want to keep (inside .config)
-!/.config/hypr/
-!/.config/kitty/
-!/.config/starship/
-!/.config/uwsm/
-!/.config/waybar/
-!/.config/wofi/
+!/.config/hypr/*
+!/.config/kitty/*
+!/.config/starship/*
+!/.config/uwsm/*
+!/.config/waybar/*
+!/.config/wofi/*
