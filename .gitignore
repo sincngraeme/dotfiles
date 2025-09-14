@@ -1,25 +1,12 @@
-# ignore gh folder to prevent exposing secrets !
+# IMPORTANT: ignore gh folder to prevent exposing secrets !
 gh/
 
-# unneccessary
-nvim/
-dconf/
-dolphinrc
-kde.org/
-pulse/
-obsidian/
-QtProject.conf
-btop/
-filetypesrc
-flameshot/
-go/
-gtk-3.0/
-kde.org/
-libreoffice/
-mimeapps.list
-nvim~/
-OpenSCAD/
-qView/
-qutebrowser/
-session/
-yay/
+# Ignore everything by default
+./*
+# Things we want to keep
+!hypr/
+!kitty/
+!starship/
+!uwsm/
+!waybar/
+!wofi/
