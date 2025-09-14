@@ -1,15 +1,15 @@
 # IMPORTANT: ignore gh folder to prevent exposing secrets !
-**/gh/
+# **/gh/
 
 # Ignore everything in root folder by default (including directories)
 /*
 # Things we want to keep
-!.config/hypr/*
-!.config/kitty/*
-!.config/starship/*
-!.config/uwsm/*
-!.config/waybar/*
-!.config/wofi/*
-!.inputrc
-!.bashrc
-
+# !/.config/hypr/*
+# !/.config/kitty/*
+# !/.config/starship/*
+# !/.config/uwsm/*
+# !/.config/waybar/*
+# !/.config/wofi/*
+# !/.inputrc
+# !/.bashrc
+#
