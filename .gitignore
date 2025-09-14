@@ -4,9 +4,11 @@ gh/
 # Ignore everything by default
 **
 # Things we want to keep
-!hypr/
-!kitty/
-!starship/
-!uwsm/
-!waybar/
-!wofi/
+!.config/hypr/
+!.config/kitty/
+!.config/starship/
+!.config/uwsm/
+!.config/waybar/
+!.config/wofi/
+!.inputrc
+!.bashrc

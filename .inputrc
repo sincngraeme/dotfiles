@@ -1,0 +1,36 @@
+##################
+### ~/.inputrc ###
+##################
+
+# Set cmd-line editing mode to vi
+set editing-mode vi
+
+##################
+### Appearance ###
+##################
+
+# MUST BE SET IN ORDER TO SET THE CURSOR TYPES !!!
+set show-mode-in-prompt on
+
+# blinking bar
+set vi-ins-mode-string \1\e[5 q\2
+# solid block
+set vi-cmd-mode-string \1\e[2 q\2
+
+set colored-stats on 
+#########################
+### Cmd Mode Mappings ###
+#########################
+set keymap vi-command
+#########################
+### Ins Mode Mappings ###
+#########################
+set keymap vi-insert
+    "\C- ": vi-movement-mode
+
+#########################
+###### Completion #######
+#########################
+
+"\t": menu-complete
+"\e[Z": menu-complete-backward
