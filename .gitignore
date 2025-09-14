@@ -2,7 +2,7 @@
 gh/
 
 # Ignore everything by default
-./*
+.config/*
 # Things we want to keep
 !hypr/
 !kitty/
