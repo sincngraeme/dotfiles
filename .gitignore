@@ -1,8 +1,8 @@
 # IMPORTANT: ignore gh folder to prevent exposing secrets !
 gh/
 
-# Ignore everything by default
-**
+# Ignore everything in root folder by default (including directories)
+/*
 # Things we want to keep
 !.config/hypr/
 !.config/kitty/
@@ -12,3 +12,4 @@ gh/
 !.config/wofi/
 !.inputrc
 !.bashrc
+
